@@ -1,0 +1,36 @@
+.project-con{
+    background-color: var(--mwhite);
+    color: var(--mblack2);
+    padding: 10%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.project-con:hover{
+    box-shadow: 50px 45px 52px -2px rgba(250, 250, 250, 0.10);
+    transform: scale(1.06);
+}
+
+.name-link{
+    font-size: 2rem;
+    text-decoration-color: transparent;
+    color: var(--mblack2);
+    transition: all .5s;
+}
+
+.name-link:hover{
+    color: blue;
+    text-decoration-color: blue;
+}
+
+.rounditem-tech {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 1px solid var(--mblack2);
+    margin: 4px;
+    font-family: 'gilroy-medium';
+    font-size: 0.85rem;
+}
