@@ -27,6 +27,7 @@ body {
   --mblack1: #2b2b2b;
   --mblack2: #1f1f1f;
   --mwhite: #fefefe;
+  --mwhite-dark: #e8e4e4;
 
   font-family: "gilroy-bold";
   background-color: var(--mblack1);

@@ -1,6 +1,6 @@
 import React from 'react';
 import "./First.css";
-import myPhoto from "../assests/pictures/me.png"
+import myPhoto from "../assests/pictures/me.png";
 
 export default function First() {
 

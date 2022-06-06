@@ -17,7 +17,7 @@ export default function Third() {
 
   return (
     <div className="third">
-      <div style={{ fontSize: "5rem",padding: "2%"}}>Projects</div>
+      <div style={{ fontSize: "5em",padding: "2%"}}>Projects</div>
       <div className="project-div">
         {projectDetails.map((arr, index) => (
           <ProjectContainer arr={arr} />

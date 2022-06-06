@@ -1,0 +1,20 @@
+.resume{
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+
+.resume-link{
+    color: var(--mblack2);
+    background-color: var(--mwhite);
+    padding: 10px 20px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 1.1rem;
+
+    transition: all 0.3s;
+}
+
+.resume-link:hover{
+    background-color: var(--mwhite-dark);
+}

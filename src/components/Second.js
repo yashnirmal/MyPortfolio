@@ -15,13 +15,13 @@ export default function FixedItem() {
   return (
 
       <div className="second">
-        <div >
+        <div className='bio-heading-div'>
           <span style={{ fontSize: "11rem" }}>Bio:</span>
         </div>
 
         <div>
           <div className="bio-box">
-            <div>
+            {/* <div> */}
               <span style={{ fontSize: "1.5rem" }}>
                 Education Background :{" "}
               </span>
@@ -31,9 +31,10 @@ export default function FixedItem() {
                 <u>College</u> : National Intitute of Technology, Karnataka . IT
                 department{" "}
               </span>
-            </div>
+            {/* </div> */}
             <br />
-            <div>
+            <br />
+            {/* <div> */}
               <span style={{ fontSize: "1.5rem" }}>Qualities : </span>
               <br />
               {qualities.map((el, index) => (
@@ -43,7 +44,7 @@ export default function FixedItem() {
                   {el}
                 </div>
               ))}
-            </div>
+            {/* </div> */}
           </div>
         </div>
       </div>

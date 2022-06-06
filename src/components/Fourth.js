@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Fourth.css";
 
-export default function Fourth() {
+export default function Fourth(props) {
 
 
     const socials = [
@@ -18,18 +18,22 @@ export default function Fourth() {
 
 
     function handleSocialClick(link) {
-      window.open(link);
+      if (link === "yash15nirmal@gmail.com") {
+        props.handleClick();
+      } else {
+        window.open(link);
+      }
     }
 
 
   return (
     <div className="fourth">
-      <div>
+      <div className='contact-div'>
         <span style={{ fontSize: "11rem" }}>Contact Me!</span>
       </div>
 
-      <div style={{ display: "flex", alignItems: "center" }}>
-        <div
+      <div className='social-cont' style={{ display: "flex",justifyContent:"center", alignItems: "center" }}>
+        <div 
           style={{ width: "70%", height: "fit-content", textAlign: "center" }}
         >
           {socialsite.map((name, index) => (
