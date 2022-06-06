@@ -37,7 +37,8 @@ function App() {
       <First />
       {/* <div style={{width:"100vw",height:"50vh"}} onClick={(e)=>{console.log("Cliked : "+e.target)}}></div> */}
       <Second />
-      <Fourth handleClick={handleClick} />
+      <Fourth />
+      {/* <Fourth handleClick={handleClick} /> */}
       <Third />
       <Scroll />
       <Resume />

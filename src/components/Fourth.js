@@ -19,7 +19,7 @@ export default function Fourth(props) {
 
     function handleSocialClick(link) {
       if (link === "yash15nirmal@gmail.com") {
-        props.handleClick();
+        // props.handleClick();
       } else {
         window.open(link);
       }
