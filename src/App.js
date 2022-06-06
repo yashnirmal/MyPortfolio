@@ -6,7 +6,7 @@ import Second from './components/Second';
 import Scroll from './components/Scroll';
 import Fourth from './components/Fourth';
 // import Snackbar from "@material-ui/core/Snackbar";
-import MuiAlert from "@material-ui/lab/Alert";
+// import MuiAlert from "@material-ui/lab/Alert";
 import Resume from "./components/Resume";
 
 
