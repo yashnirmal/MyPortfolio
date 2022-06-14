@@ -4,8 +4,8 @@ import myPhoto from "../assests/pictures/me.png";
 
 export default function First() {
 
-  const profile=['FrontEnd Developer'];
-  const technologies=['HTML','CSS','Javascript','ReactJs','Firebase'];
+  const profile=['FrontEnd Developer','learning web3 stack'];
+  const technologies=['HTML','CSS','Javascript','ReactJs','Firebase','Solidity'];
 
   return (
     <div className="first">
