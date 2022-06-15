@@ -1,4 +1,3 @@
-import './App.css';
 import React,{useState} from "react";
 import First from './components/First';
 import Third from './components/Third';
