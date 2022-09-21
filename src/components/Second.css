@@ -9,6 +9,10 @@
     color: var(--mblack2);
 }
 
+.bio-heading-div{
+    text-align: center;
+}
+
 .bio-box{
     text-align: center;
 }

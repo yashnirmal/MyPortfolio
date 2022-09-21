@@ -38,6 +38,10 @@
     align-items: center;
 }
 
+.contact-div>span{
+    text-align: center;
+}
+
 @media(max-width:1000px){
     .fourth{
         grid-template-columns: 1fr;
